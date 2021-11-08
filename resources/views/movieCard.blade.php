@@ -1,6 +1,6 @@
 @extends('layout.main')
 
-@section('title', $movie->original_title)
+@section('title', $movie->title)
 
 @section('pageContent')
     <ul class="film__list movieCard">

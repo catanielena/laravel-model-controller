@@ -13,4 +13,10 @@ class MovieController extends Controller
         // dd($movies[0]);
         return view('index', compact('movies'));
     }
+
+    public function movieCard($id) 
+    {
+        $movie = Movie::find($id);
+        return view('movieCard', compact('movie'));
+    }
 }

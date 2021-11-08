@@ -1,12 +1,11 @@
 @extends('layout.main')
 
-@section('title', 'MovieDB')
+@section('title', $movie->original_title)
 
 @section('pageContent')
     <ul class="film__list">
-        @foreach ($movies as $movie)
         <li class="list__card">
-            <a href="{{route('movieCard', ['id' => $movie->id])}}" class="btn">
+            <a href="#" class="btn">
                 <h3>{{$movie->title}}</h3>
                 <ul class="card__list">
                     <li class="list__item"><i>{{$movie->original_title}}</i></li>
@@ -21,6 +20,5 @@
                 </ul>
             </a>
         </li>
-        @endforeach
     </ul>
 @endsection

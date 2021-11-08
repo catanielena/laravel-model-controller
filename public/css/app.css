@@ -22,12 +22,35 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+header {
+  position: relative;
+}
+
 header h1 {
+  z-index: -2;
   font-size: 20rem;
+  height: 25rem;
   font-family: "Anton", sans-serif;
-  line-height: 18rem;
   padding: 0.5rem 0;
   text-shadow: 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000;
+}
+
+header .header__nav a {
+  padding: 0.5rem;
+}
+
+header .header__nav a:hover {
+  font-weight: 500;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 64rem) {

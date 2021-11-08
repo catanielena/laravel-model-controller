@@ -14,3 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'MovieController@index')->name('movieLib');
+
+Route::get('/movieCard/{id}', 'MovieController@movieCard')->name('movieCard');

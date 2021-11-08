@@ -61,3 +61,43 @@ main {
         padding: $gt;
     }
 }
+header {
+    .header__nav {
+        a {
+            padding: $gt--sm;
+        }
+        a:hover {
+            font-weight: 500;
+            text-decoration: underline;
+        }
+    }
+}
+
+@media screen and (max-width: 64rem) {
+    main {
+        h1 {
+            font-size: 13rem;
+            height: 16rem;
+
+        }
+    }
+}
+
+@media screen and (max-width: 48rem) {
+    main {
+        h1 {
+            font-size: 7rem;
+            height: 10rem;
+        }
+    }
+}
+
+@media screen and (max-width: 48rem) {
+    main {
+        h1 {
+            font-size: 5rem;
+            padding: $gt 0;
+            height: 7rem;
+        }
+    }
+}

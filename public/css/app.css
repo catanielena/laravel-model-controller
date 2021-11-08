@@ -31,37 +31,6 @@ a {
   cursor: pointer;
 }
 
-header .header__nav a {
-  padding: 0.5rem;
-}
-
-header .header__nav a:hover {
-  font-weight: 500;
-  text-decoration: underline;
-}
-
-@media screen and (max-width: 64rem) {
-  header h1 {
-    font-size: 13rem;
-    line-height: 11rem;
-  }
-}
-
-@media screen and (max-width: 48rem) {
-  header h1 {
-    font-size: 7rem;
-    line-height: 5rem;
-  }
-}
-
-@media screen and (max-width: 48rem) {
-  header h1 {
-    font-size: 5rem;
-    padding: 1rem 0;
-    line-height: 3rem;
-  }
-}
-
 main h1 {
   z-index: -2;
   font-size: 20rem;
@@ -123,5 +92,36 @@ main .film__list .card__list .vote-number::after {
 
 main .movieCard {
   padding: 1rem;
+}
+
+header .header__nav a {
+  padding: 0.5rem;
+}
+
+header .header__nav a:hover {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 64rem) {
+  main h1 {
+    font-size: 13rem;
+    height: 16rem;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  main h1 {
+    font-size: 7rem;
+    height: 10rem;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  main h1 {
+    font-size: 5rem;
+    padding: 1rem 0;
+    height: 7rem;
+  }
 }
 

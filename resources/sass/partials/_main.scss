@@ -1,0 +1,50 @@
+main {
+    .film__list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+        .list__card {
+            margin: 0 $gt $gt 0;
+        }
+        .card__list {
+            text-indent: 1rem;
+            font-size: .8rem;
+            position: relative;
+
+            &::after {
+                position: absolute;
+                content: "";
+                display: inline-block;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #fff;
+                border-radius: .625rem;
+                z-index: -2;
+            }
+
+            .list__item.vote {
+                text-align: end;
+            }
+
+            .vote-number {
+                position: relative;
+                color: #fff;
+                font-weight: 500;
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    display: inline-block;
+                    top: 0;
+                    left: 0;
+                    width: 1.5rem;
+                    height: 1rem;
+                    background-color:  #21D2E7;
+                    border-radius: 50%;
+                    z-index: -1;
+                }
+            }
+        }
+
+    }
+}

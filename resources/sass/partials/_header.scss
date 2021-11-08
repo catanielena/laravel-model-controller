@@ -1,0 +1,36 @@
+header {
+    h1 {
+        font-size: 20rem;
+        font-family: 'Anton', sans-serif;
+        line-height: 18rem;
+        padding: $gt--sm 0;
+        text-shadow: 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000;}
+}
+
+@media screen and (max-width: 64rem) {
+    header {
+        h1 {
+            font-size: 13rem;
+            line-height: 11rem;
+        }
+    }
+}
+
+@media screen and (max-width: 48rem) {
+    header {
+        h1 {
+            font-size: 7rem;
+            line-height: 5rem;
+        }
+    }
+}
+
+@media screen and (max-width: 48rem) {
+    header {
+        h1 {
+            font-size: 5rem;
+            padding: $gt 0;
+            line-height: 3rem;
+        }
+    }
+}

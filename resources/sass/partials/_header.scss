@@ -1,0 +1,11 @@
+header {
+    .header__nav {
+        a {
+            padding: $gt--sm;
+        }
+        a:hover {
+            font-weight: 500;
+            text-decoration: underline;
+        }
+    }
+}

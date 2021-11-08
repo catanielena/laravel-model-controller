@@ -13,6 +13,10 @@ main {
         grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
         .list__card {
             margin: 0 $gt $gt 0;
+            transition: transform .5s;
+            &:hover {
+                transform: translateY(.7rem);
+            }
         }
         .card__list {
             text-indent: 1rem;

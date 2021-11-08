@@ -31,6 +31,15 @@ a {
   cursor: pointer;
 }
 
+header .header__nav a {
+  padding: 0.5rem;
+}
+
+header .header__nav a:hover {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
 main h1 {
   z-index: -2;
   font-size: 20rem;
@@ -47,6 +56,11 @@ main .film__list {
 
 main .film__list .list__card {
   margin: 0 1rem 1rem 0;
+  transition: transform 0.5s;
+}
+
+main .film__list .list__card:hover {
+  transform: translateY(0.7rem);
 }
 
 main .film__list .card__list {

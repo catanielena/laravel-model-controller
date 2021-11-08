@@ -3,7 +3,7 @@
 @section('title', $movie->original_title)
 
 @section('pageContent')
-    <ul class="film__list">
+    <ul class="film__list movieCard">
         <li class="list__card">
             <a href="#" class="btn">
                 <h3>{{$movie->title}}</h3>

@@ -31,19 +31,6 @@ a {
   cursor: pointer;
 }
 
-header {
-  position: relative;
-}
-
-header h1 {
-  z-index: -2;
-  font-size: 20rem;
-  height: 25rem;
-  font-family: "Anton", sans-serif;
-  padding: 0.5rem 0;
-  text-shadow: 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000;
-}
-
 header .header__nav a {
   padding: 0.5rem;
 }
@@ -73,6 +60,15 @@ header .header__nav a:hover {
     padding: 1rem 0;
     line-height: 3rem;
   }
+}
+
+main h1 {
+  z-index: -2;
+  font-size: 20rem;
+  height: 25rem;
+  font-family: "Anton", sans-serif;
+  padding: 0.5rem 0;
+  text-shadow: 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000;
 }
 
 main .film__list {
@@ -123,5 +119,9 @@ main .film__list .card__list .vote-number::after {
   background-color: #21D2E7;
   border-radius: 50%;
   z-index: -1;
+}
+
+main .movieCard {
+  padding: 1rem;
 }
 

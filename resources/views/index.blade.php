@@ -3,6 +3,7 @@
 @section('title', 'MovieDB')
 
 @section('pageContent')
+    <h1>MOVIE DB</h1>
     <ul class="film__list">
         @foreach ($movies as $movie)
         <li class="list__card">

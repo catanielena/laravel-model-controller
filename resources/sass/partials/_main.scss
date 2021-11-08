@@ -1,4 +1,13 @@
 main {
+    h1 {
+        z-index: -2;
+        font-size: 20rem;
+        height: 25rem;
+        font-family: 'Anton', sans-serif;
+        padding: $gt--sm 0;
+        text-shadow: 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, 2px 2px 2px #000000, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #D3FF6F, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000, -2px -2px 2px #000000;
+    }
+
     .film__list {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
@@ -46,5 +55,9 @@ main {
             }
         }
 
+    }
+
+    .movieCard {
+        padding: $gt;
     }
 }
